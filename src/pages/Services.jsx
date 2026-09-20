@@ -6,6 +6,7 @@ import ServicesSection from "../sections/ServicesSection.jsx";
 import MobileApp from "../sections/MobileApp.jsx";
 import CTABanner from "../sections/CTABanner.jsx";
 import { steps } from "../data.js";
+import ServicesExtras from "../components/ServicesExtras.jsx";
 
 export default function Services() {
   return (
@@ -35,6 +36,7 @@ export default function Services() {
       <div className="pt-16 sm:pt-20">
         <MobileApp />
       </div>
+      <ServicesExtras/>
       <CTABanner />
     </>
   );

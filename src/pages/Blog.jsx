@@ -4,6 +4,7 @@ import PageHeader from "../components/PageHeader.jsx";
 import { Item, Stagger } from "../components/Reveal.jsx";
 import CTABanner from "../sections/CTABanner.jsx";
 import { posts } from "../data.js";
+import BlogExtras from "../components/BlogExtras.jsx";
 
 export default function Blog() {
   return (
@@ -34,6 +35,7 @@ export default function Blog() {
           </Stagger>
         </div>
       </section>
+      <BlogExtras/>
       <CTABanner />
     </>
   );
