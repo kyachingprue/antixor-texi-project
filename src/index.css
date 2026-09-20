@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+
+  /* Brand yellow */
+  --color-brand-300: #ffd75e;
+  --color-brand-400: #ffc82c;
+  --color-brand-500: #ffb800;
+  --color-brand-600: #e6a200;
+
+  /* Deep navy surfaces */
+  --color-navy-950: #060d1c;
+  --color-navy-900: #0a1428;
+  --color-navy-800: #0f1e3a;
+  --color-navy-700: #172a4d;
+  --color-navy-600: #22386a;
+
+  --color-royal: #1f4fd8;
+  --color-ink: #0f1a30;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-white font-sans text-slate-600 antialiased;
+  }
+  ::selection {
+    background: var(--color-brand-400);
+    color: var(--color-navy-900);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-brand-500);
+    outline-offset: 2px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+/* Page container used by every section */
+@utility container-x {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+/* Reusable buttons */
+@utility btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-brand-500 px-6 py-3 text-sm font-bold text-navy-900 shadow-lg shadow-brand-500/25 transition duration-300 hover:bg-brand-400 hover:shadow-brand-500/40 active:scale-95;
+}
+@utility btn-dark {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-navy-900 px-6 py-3 text-sm font-bold text-white shadow-lg shadow-navy-900/25 transition duration-300 hover:bg-navy-700 active:scale-95;
+}
