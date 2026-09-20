@@ -128,48 +128,90 @@ export const fleet = [
 
 export const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "Business Traveler",
+    name: 'Sarah Johnson',
+    role: 'Business Traveler',
     quote:
-      "Amazing service! The driver was on time, the car was clean, and the booking process was super easy. Highly recommend!",
-    avatar: "from-rose-400 to-orange-400",
+      'Amazing service! The driver was on time, the car was clean, and the booking process was super easy. Highly recommend!',
+    avatar: 'from-rose-400 to-orange-400'
   },
   {
-    name: "David Miller",
-    role: "Regular Customer",
+    name: 'David Miller',
+    role: 'Regular Customer',
     quote:
-      "I use Antixor taxi.com for my daily commute. Always reliable, safe and affordable. Best taxi service in town!",
-    avatar: "from-sky-400 to-indigo-500",
+      'I use Antixor taxi.com for my daily commute. Always reliable, safe and affordable. Best taxi service in town!',
+    avatar: 'from-sky-400 to-indigo-500'
   },
   {
-    name: "Emily Carter",
-    role: "Frequent Traveler",
+    name: 'Emily Carter',
+    role: 'Frequent Traveler',
     quote:
-      "The airport transfer service was perfect. Professional driver, no hassle, and great support. Will definitely use again!",
-    avatar: "from-fuchsia-400 to-pink-500",
+      'The airport transfer service was perfect. Professional driver, no hassle, and great support. Will definitely use again!',
+    avatar: 'from-fuchsia-400 to-pink-500'
   },
   {
-    name: "Michael Chen",
-    role: "Startup Founder",
+    name: 'Michael Chen',
+    role: 'Startup Founder',
     quote:
-      "Corporate rides for my whole team, one invoice at the end of the month. It saves us hours of admin every week.",
-    avatar: "from-emerald-400 to-teal-500",
+      'Corporate rides for my whole team, one invoice at the end of the month. It saves us hours of admin every week.',
+    avatar: 'from-emerald-400 to-teal-500'
   },
   {
-    name: "Priya Sharma",
-    role: "Night-shift Nurse",
+    name: 'Priya Sharma',
+    role: 'Night-shift Nurse',
     quote:
-      "Getting home at 3 AM used to worry me. Live tracking and verified drivers make every ride feel safe.",
-    avatar: "from-amber-400 to-orange-500",
+      'Getting home at 3 AM used to worry me. Live tracking and verified drivers make every ride feel safe.',
+    avatar: 'from-amber-400 to-orange-500'
   },
   {
-    name: "Omar Hassan",
-    role: "Airport Commuter",
+    name: 'Omar Hassan',
+    role: 'Airport Commuter',
     quote:
-      "Flight delayed by two hours and my driver was still there waiting. That is the kind of service you remember.",
-    avatar: "from-violet-400 to-purple-500",
+      'Flight delayed by two hours and my driver was still there waiting. That is the kind of service you remember.',
+    avatar: 'from-violet-400 to-purple-500'
   },
-];
+  {
+    name: 'Emily Carter',
+    role: 'Frequent Traveler',
+    quote:
+      'The airport transfer service was perfect. Professional driver, no hassle, and great support. Will definitely use again!',
+    avatar: 'from-fuchsia-400 to-pink-500'
+  },
+  {
+    name: 'Michael Chen',
+    role: 'Startup Founder',
+    quote:
+      'Corporate rides for my whole team, one invoice at the end of the month. It saves us hours of admin every week.',
+    avatar: 'from-emerald-400 to-teal-500'
+  },
+  {
+    name: 'David Miller',
+    role: 'Regular Customer',
+    quote:
+      'I use Antixor taxi.com for my daily commute. Always reliable, safe and affordable. Best taxi service in town!',
+    avatar: 'from-sky-400 to-indigo-500'
+  },
+  {
+    name: 'Emily Carter',
+    role: 'Frequent Traveler',
+    quote:
+      'The airport transfer service was perfect. Professional driver, no hassle, and great support. Will definitely use again!',
+    avatar: 'from-fuchsia-400 to-pink-500'
+  },
+  {
+    name: 'Michael Chen',
+    role: 'Startup Founder',
+    quote:
+      'Corporate rides for my whole team, one invoice at the end of the month. It saves us hours of admin every week.',
+    avatar: 'from-emerald-400 to-teal-500'
+  },
+  {
+    name: 'Priya Sharma',
+    role: 'Night-shift Nurse',
+    quote:
+      'Getting home at 3 AM used to worry me. Live tracking and verified drivers make every ride feel safe.',
+    avatar: 'from-amber-400 to-orange-500'
+  }
+]
 
 export const stats = [
   { icon: Smile, value: 500, suffix: "K+", label: "Happy Customers" },
